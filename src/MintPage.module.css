@@ -35,3 +35,31 @@
     background-color: #dc004e;
     color: #fff;
   }
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardMedia {
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .gridContainer {
+    gap: 1rem;
+  }
+  
+  .connectWalletGrid {
+    margin-top: 1rem;
+  }
